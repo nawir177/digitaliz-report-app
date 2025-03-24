@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+/* hidden scorll */
+.hidden-scroll::-webkit-scrollbar {
+  display: none;
+}
